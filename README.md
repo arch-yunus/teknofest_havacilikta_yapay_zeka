@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Header Image](https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png)
+![SkyGuard AI Teknofest Banner](assets/banner.png)
 
 [![Lisans](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
