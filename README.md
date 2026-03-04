@@ -59,26 +59,22 @@ Vizyonumuz, Türkiye'nin savunma sanayiindeki başarılarını sivil ve akademik
 
 ---
 
-## 🏆 Teknofest Yarışma ve Görev Detayları
+## 🏆 Teknofest 2026: Havacılıkta Yapay Zeka Görevleri
 
-**SkyGuard AI**, Teknofest "Ulaşımda Yapay Zeka" ve "İnsansız Hava Araçları" kategorilerindeki en zorlu görevleri temel alarak geliştirilmiştir. Yarışma, katılımcılardan yüksek seviyeli otonomi, gerçek zamanlı nesne tespiti ve dinamik navigasyon yetenekleri beklemektedir.
+SkyGuard AI, 2026 yılı teknik şartnamesinde belirtilen üç ana görevi tam otonom ve yüksek hassasiyetle yerine getirmek üzere güncellenmiştir.
 
-### 🏁 Görev Senaryosu: "Kayıp Hedef ve Otonom İkmal"
-Yarışma parkuru, karmaşık engellerle dolu bir açık alanda gerçekleşmektedir. Temel görev akışı şöyledir:
+### 🎯 Görev 1: Nesne Tespiti ve Durum Analizi
+- **Sınıflandırma**: İnsan, Taşıt, UAP (Park) ve UAİ (İniş) alanlarının gerçek zamanlı tespiti.
+- **Hareket Analizi**: Taşıtların "Hareketli" veya "Hareketsiz" durumlarının Kalman Filtresi destekli hız tahmini ile belirlenmesi.
+- **İniş Uygunluğu**: İniş alanlarının doluluk kontrolü ve inişe uygunluk (Landing Status) tespiti.
 
-1.  **Tam Otonom Kalkış & Devriye**: İHA, önceden tanımlanmış waypoint dizgisini takip ederek belirlenen arama sahasına (search area) otonom olarak intikal eder.
-2.  **Akıllı Hedef Tespiti**: Arama sahasında bulunan statik veya hareketli hedefler (insan, araç, ilk yardım çantası vb.) YOLOv8 tabanlı görsel sistemimizle tespit edilir.
-3.  **Kilitlenme ve Takip**: Tespit edilen hedef, Görsel Servo (Visual Servoing) mekanizmasıyla kadrajın merkezine alınır ve drone hedef üzerinde kilitli kalarak alçalma manevrasına başlar.
-4.  **Hassas İniş / Yük Bırakma**: Hedefin tam üzerine, GPS hatasını minimize eden yapay zeka destekli hassasiyetle yük bırakılır veya otonom iniş gerçekleştirilir.
-5.  **Güvenli RTL (Return to Launch)**: Görev tamamlandığında veya acil durum (fail-safe) protokolleri tetiklendiğinde drone en güvenli rotayı çizerek eve döner.
+### 📍 Görev 2: Görsel Konum Kestirimi (Visual Odometry)
+- **GPS Bağımsız Navigasyon**: GPS sinyalinin sağlıksız veya kesik olduğu durumlarda, alt görüş kamerasından alınan özniteliklerin (ORB/SIFT) takibi ile (x, y, z) yer değişiminin hesaplanması.
+- **Hata Toleransı**: Sensör füzyonu ile GPS verisi geldiğinde kendini kalibre eden dinamik yapı.
 
-### 📏 Yarışma Zorlukları ve Çözümlerimiz
-| Yarışma Zorluğu | SkyGuard AI Çözümü |
-| :--- | :--- |
-| **GPS Sapmaları** | RL (Reinforcement Learning) ve Görsel Odometri ile düzeltme. |
-| **Değişken Işık Koşulları** | Veri setinde "Light Augmentation" ve Gelişmiş Pre-processing. |
-| **Dinamik Engeller** | A* Path Planning ile gerçek zamanlı rota planlama. |
-| **Sınırlı İşlem Gücü** | TensorRT ve ONNX ile optimize edilmiş YOLOv8 modelleri. |
+### 🖼️ Görev 3: Dinamik Nesne Eşleştirme
+- **Referans Takibi**: Oturum başında paylaşılan "tanımsız" referans nesnelerin, uçuş sırasında görsel öznitelik eşleme (Homography) yöntemleriyle tespit edilmesi.
+- **Adaptasyon**: Farklı ışık, açı ve kamera (termal/RGB) türlerine dayanıklı öznitelik eşleştirme mimarisi.
 
 ---
 

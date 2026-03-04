@@ -118,3 +118,18 @@ class CentroidTracker:
                 self.register(input_centroids[col])
 
         return self.objects
+
+    def get_motion_status(self, object_id):
+        """
+        Returns motion status based on velocity from Kalman Filter.
+        0: Hareketsiz, 1: Hareketli
+        """
+        if object_id not in self.kalmans:
+            return "0"
+        
+        # State: [x, y, vx, vy]
+        vx, vy = self.kalmans[object_id].state[2:]
+        velocity = np.sqrt(vx**2 + vy**2)
+        
+        # Threshold for camera motion vs actual motion (simplified)
+        return "1" if velocity > 2.0 else "0"

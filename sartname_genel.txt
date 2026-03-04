@@ -1,0 +1,896 @@
+ 
+ 
+I 
+ 
+ 
+ 
+ 
+1 
+ 
+İÇİNDEKİLER 
+TABLOLAR ........................................................................................................................................... 2 
+VERSİYONLAR ..................................................................................................................................... 4 
+TANIMLAR VE KISALTMALAR DİZİNİ ....................................................................................................... 5 
+1. 
+YARIŞMANIN AMACI ..................................................................................................................... 6 
+2. 
+YARIŞMANIN KAPSAMI .................................................................................................................. 6 
+3. 
+YARIŞMA BAŞVURUSU .................................................................................................................. 8 
+4. 
+YARIŞMA DETAYLARI ..................................................................................................................... 8 
+4.1. 
+Yarışma Sırasında Kullanılacak Donanımlar .......................................................................... 8 
+4.2. 
+Tespit Edilecek Nesne Türleri................................................................................................ 8 
+4.3. 
+Tespit Edilecek Pozisyon Bilgisi ........................................................................................... 11 
+4.4. 
+Yarışma Oturumları ........................................................................................................... 11 
+4.5. 
+Eğitim, Test ve Yarışma Videoları ........................................................................................ 11 
+4.6. 
+Nesne Tespit Bilgisi Standartları ......................................................................................... 12 
+4.7. 
+Pozisyon Tespit Bilgisi Standartları ...................................................................................... 12 
+4.8. 
+Referans Obje Tespit Bilgisi Standartları .............................................................................. 12 
+4.9. 
+Yarışmanın Github ve Google Groups Sayfaları .................................................................... 12 
+5. 
+PUANLANDIRMA ........................................................................................................................ 13 
+6. 
+YARIŞMA TAKVİMİ, DEĞERLENDİRME .......................................................................................... 13 
+6.1. 
+Teknik Şartnamenin İlanı .................................................................................................... 13 
+6.2. 
+Örnek Eğitim Videosunun Teslimi ....................................................................................... 14 
+6.3. 
+Ön Tasarım Raporu ............................................................................................................ 14 
+6.4 
+Ön Tasarım Raporunun Değerlendirilmesi ve 1. Ön Elemeyi Geçen Takımların Açıklanması .... 14 
+6.5 
+Takımlarla Soru-Cevap Toplantısı ....................................................................................... 14 
+6.6 
+Çevrim İçi Yarışma Simülasyonu......................................................................................... 14 
+6.7 
+Çevrim İçi Yarışma Simülasyonun Sonuçlarına Göre 2. Ön Elemeyi Geçen Takımların 
+Açıklanması ................................................................................................................................... 14 
+6.8 
+Yarışma ............................................................................................................................ 15 
+6.9 
+Final Tasarım Raporu ......................................................................................................... 15 
+6.10 
+TEKNOFEST ...................................................................................................................... 15 
+7. 
+ÖDÜLLER................................................................................................................................... 15 
+8. 
+YARIŞMAYA KATILIM KOŞULLARI .................................................................................................. 16 
+9. 
+İLETİŞİM ..................................................................................................................................... 19 
+10. 
+GENEL KURALLAR ................................................................................................................. 20 
+11. 
+ETİK KURALLAR ..................................................................................................................... 20 
+SORUMLULUK BEYANI ....................................................................................................................... 20 
+ 
+2 
+ 
+TABLOLAR 
+Tablo 1: Versiyonlar Tablosu ....................................................................................................... 4 
+Tablo 2: Versiyonlar Tablosu Sınıflar ve Detayları ........................................................................... 9 
+Tablo 3: UAP ve UAİ Sınıfları için İniş Durumu ID bilgileri ............................................................... 10 
+Tablo 4: Hareketlilik  Durumu ID bilgileri ..................................................................................... 10 
+Tablo 5: Yarışma Takvimi .......................................................................................................... 13 
+Tablo 6: Ödüller Tablosu .......................................................................................................... 16 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 
+ 
+ŞEKİLLER 
+Şekil 1:  Örnek Taşıt, İnsan, UAP ve UAİ Alan 
+6 
+Şekil 2:  Örnek Kestirim Yer Değiştirme ve Referans Yer Değiştirme 
+7 
+Şekil 3:  Referans Obje Tespiti Örnek Görsel 
+8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4 
+ 
+VERSİYONLAR 
+Tablo 1: Versiyonlar Tablosu 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VERSİYON 
+TARİH 
+Açıklama 
+V1.0 
+19.01.2025 
+TEKNOFEST 2026 İlk Versiyon 
+V1.1 
+21.01.2026 
+TEKNOFEST 2026 İkinci Versiyon 
+V1.1 
+20.02.2026 
+Yarışma Son Başvuru Tarihi 
+ 
+ 
+5 
+ 
+TANIMLAR VE KISALTMALAR DİZİNİ 
+İşbu şartnamede belirtilen; 
+KYS: TEKNOFEST Kurumsal Yönetim Sistemi’ni, 
+Takım Kaptanı: Takımın organizasyonundan sorumlu olan ve süreçlerde liderlik görevini 
+üstlenen kişi, 
+Takım Danışmanı: Her takım için en fazla bir (1) öğretmen/eğitmen/akademisyen,  
+TEKNOFEST: Havacılık, Uzay ve Teknoloji Festivalini, 
+T3 Vakfı: Türkiye Teknoloji Takımı Vakfını, 
+Yarışma Süreci: Yarışma başvurularının alınmaya başladığı tarih ile final sonuçlarının açıklandığı 
+tarih arasında geçen süreyi tanımlamaktadır. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+ 
+1. YARIŞMANIN AMACI 
+Yapay Zeka teknolojilerinin geliştirilmesi ve üretimi, ülkemizin teknolojik geleceği ve rekabet gücü 
+açısından stratejik bir öneme sahiptir. Bu kapsamda düzenlenen “Havacılıkta Yapay Zeka” 
+Yarışması, havacılık sektöründe karşılaşılabilecek sorunlara yenilikçi çözümler sunmayı 
+hedeflemektedir. Yarışma, bilgi birikimini artırmak, bu alanda yetkin insan kaynağı yetiştirmek ve 
+ülkemizin havacılık ve teknoloji alanındaki bağımsızlığını güçlendirmek amacıyla hayata 
+geçirilmiştir. 
+2. YARIŞMANIN KAPSAMI  
+Günümüzün hızla gelişen teknolojik ortamında, havacılık sektörü, yenilikçi teknolojilerin 
+yaygınlaşması ve büyük ölçekli değişimlerle karşı karşıyadır. Otonom uçan araçlar, hava taksileri 
+ve diğer inovatif çözümler, havacılığın geleceğini şekillendiren en önemli unsurlar arasında yer 
+almaktadır. Bu teknolojik dönüşüm, ulaşımın verimliliğini artırırken, güvenlik standartlarını ve 
+çevresel farkındalık seviyelerini de yeniden tanımlamaktadır. Bu bağlamda, TEKNOFEST 
+kapsamında düzenlenen “Havacılıkta Yapay Zeka Yarışması”, havacılık sektöründe karşılaşılan 
+problemlere yaratıcı ve yenilikçi çözümler sunmayı hedeflemektedir. Yarışma, hava araçlarının 
+çevresel farkındalık seviyelerini artırmak ve operasyonel güvenliklerini güçlendirmek amacıyla, 
+yapay zeka tabanlı algoritmaların geliştirilmesine olanak tanıyan bir platform sağlamaktadır. 
+Yarışma kapsamında, hava araçlarının sensör ve kamera verilerini işleyerek çevresel farkındalık 
+kabiliyetini geliştiren algoritmalar oluşturulması teşvik edilmektedir. Ayrıca, hava araçlarının 
+otonom bir şekilde ve güvenle uçuş gerçekleştirebilmesi, olası arıza durumlarını önceden tespit 
+ederek önleyebilmesi için yapay zeka destekli akıllı sistemlerin geliştirilmesi kritik öneme 
+sahiptir. 
+Birinci görev kapsamında yarışmacılardan, hava araçlarının kamera görüntülerini işleyerek 
+çevresel farkındalık sağlayan bir nesne tespit sistemi geliştirmeleri beklenmektedir. Bu sistem, 
+insanları, taşıtları ve belirli iniş alanlarını tanımlamalıdır. 
+Görsel bir asistanın, Uçan Araba Park (UAP) ve Uçan Ambulans İniş (UAİ) alanlarını iniş için 
+uygun olup olmadığı, bu alanlarda herhangi bir nesnenin (insan, taşıt veya yabancı bir obje) 
+bulunup bulunmamasına göre değerlendirilecektir. Ayrıca bahsedilen görsel asistanın tespit 
+ettiği taşıtları hareketli veya hareketsiz olarak sınıflandırması gerekmektedir. 
+Şekil 1:  Örnek Taşıt, İnsan, UAP ve UAİ Alan 
+ 
+ 
+ 
+7 
+ 
+Geliştirilecek sistemin, hava araçlarının gece-gündüz fark etmeksizin, yağmur, kar veya sis gibi 
+zorlu hava koşullarında sağlıklı bir şekilde çalışabilmesi için dayanıklı ve optimize edilmiş olması 
+gerekmektedir. Ayrıca, kamera görüntülerindeki olası teknik problemleri (örneğin; buğulanma, 
+karıncalanma veya odak sorunları) tolere edebilecek algoritmaların geliştirilmesi teşvik 
+edilmektedir. 
+İkinci görevde amaç, hava araçlarının uydu tabanlı konumlandırma sistemlerinin (GPS gibi) devre 
+dışı kaldığı durumlarda da güvenli bir şekilde uçabilmesi için görsel veriye dayalı bir pozisyon 
+kestirim sisteminin geliştirilmesidir. Bu sistem, hava aracının alt-görüş kameralarından alınan 
+görüntülerden faydalanarak, yerdeki sabit ve hareketli nesneleri temel alıp aracın konum 
+değişimlerini doğru bir şekilde hesaplamalıdır. Özellikle kritik uçuş anlarında pozisyon bilgisinin 
+kesintiye uğraması ciddi sorunlara yol açabileceğinden, algoritmaların bu tür durumlarda 
+güvenilir sonuçlar üretebilmesi hedeflenmektedir. Pozisyon kestirimi sonuçları, referans 
+pozisyon bilgileri ile karşılaştırılarak değerlendirmeye tabi tutulacaktır. 
+ 
+ 
+Şekil 2:  Örnek Kestirim Yer Değiştirme ve Referans Yer Değiştirme 
+ 
+Üçüncü görev, hava araçlarının daha önce tanımlanmamış yeni objeleri görsel veri üzerinden 
+anlık olarak tanıma ve takip etme yeteneğini test etmektedir. Yarışma başlangıcında anlık olarak 
+paylaşılan dinamik referans objelerin hava aracı görüntülerinden tespit edilmesi beklenmektedir. 
+Bu görevde temel amaç, sistemin daha önce karşılaşmadığı yeni nesnelere karşı adaptasyon 
+yeteneğini ve genel nesne tanıma kabiliyetini ölçmektir. Yarışmacılar, yarışma anında kendilerine 
+bildirilen referans objeleri, kamera frameleri içerisinde tespit ederek konumlarını Şekil 3’te 
+bulunan örnek görseldeki gibi raporlayacaktır. Üçüncü görevin detayları teknik şartnamede 
+belirtilecektir. 
+ 
+ 
+8 
+ 
+ 
+Şekil 3:  Referans Obje Tespiti Örnek Görsel 
+3. YARIŞMA BAŞVURUSU 
+Yarışmaya; Havacılık, Uzay ve Teknoloji Festivali TEKNOFEST resmî web sitesi üzerinden 
+(www.teknofest.org) 28 Şubat 2026 tarihine kadar başvuru yapılmalıdır. Belirtilen tarihten sonra 
+yapılacak olan hiçbir başvuru kabul edilmeyecektir. Yarışma takımları en 2 ve en fazla 5 kişiden 
+oluşmalıdır. 
+4. YARIŞMA DETAYLARI 
+4.1. Yarışma Sırasında Kullanılacak Donanımlar 
+Yarışma 
+süresince, 
+tüm 
+takımlar 
+geliştirdikleri 
+yazılımları 
+kendi 
+bilgisayarlarında 
+çalıştıracaklardır. Takımlara, yarışma öncesinde bilgisayarlarını hazırlamaları ve test etmeleri 
+için yeterli süre tanınacaktır. Yarışma sırasında, katılımcılar yerel ağda bulunan yarışma 
+sunucusuna bağlanarak önceden sağlanan kod bloklarında yer alan örnek yapıların yardımıyla 
+algoritmalarının sonuçlarını sunucuya göndereceklerdir. 
+Bu nedenle, yarışma esnasında kullanılacak bilgisayarların ethernet bağlantı girişine sahip 
+olması zorunludur. Ayrıca, takımların ekran, klavye ve fare gibi donanım ihtiyaçlarını önceden 
+temin ederek yarışma alanına yanlarında getirmeleri gerekmektedir. 
+Yarışma sırasında kullanılan bilgisayarların internete bağlı olması kesinlikle yasaktır. Tüm tespit 
+ve kestirim algoritmaları, yalnızca yarışmacıların kendi temin ettikleri donanım üzerinde 
+çalışacak olup çevrimiçi hizmetlerden yararlanılması yasaklanmıştır. Bu kurallar, yarışma 
+güvenliği ve adaletin sağlanması açısından titizlikle uygulanacaktır. 
+4.2. 
+Tespit Edilecek Nesne Türleri 
+Birinci görev özelinde, nesne türleri, yarışma sırasında yayınlanacak videolarda, örnek videolarda 
+veya eğitim videolarında bulunabilecek, tespit edilmesi beklenen cisimlerin çeşitleridir. Tespit 
+edilebilecek nesne türleri aşağıdaki gibidir:
+ 
+9 
+ 
+● 
+Taşıt 
+O Hareket Durumu 
+● 
+İnsan 
+● 
+Uçan Araba Park (UAP) Alanı  
+O İniş Durumu 
+● 
+Uçan Ambulans İniş (UAİ) Alanı  
+O İniş Durumu 
+Tespit edilmesi beklenen sınıflar Tablo 2’de ayrıntılı bir şekilde belirtilmiştir. 
+Tablo 2: Versiyonlar Tablosu Sınıflar ve Detayları 
+ 
+ 
+İniş 
+Durumunun 
+Alabileceği 
+Değerler1 
+Hareket 
+Durumunun 
+Alabileceği 
+Değerler 
+ 
+Sınıf 
+Sınıf 
+Detay 
+  
+ID 
+  
+Taşıt 
+0 
+-1 
+0,1 
+Aşağıda maddeler halinde verilen tüm 
+nesne türleri taşıt olarak 
+Değerlendirilmelidir. 
+1. Motorlu karayolu taşıtları 
+a. Otomobiller 
+b. Motosikletler 
+c. Otobüsler 
+d. Kamyonlar 
+e. Traktör, atv vb. kara 
+araçları 
+2. Raylı taşıtlar 
+a. Trenler 
+i. 
+Lokomotifler 
+ii. 
+Vagonlar 
+b. Tramvaylar 
+c. Monoraylar 
+d. Füniküler 
+Tüm deniz taşıtları 
+İnsan 
+1 
+-1 
+-1 
+Ayakta duran ya da oturan fark etmeksizin 
+tüm  
+insanlar değerlendirilmelidir. 
+ 
+ 
+ 
+ 
+10 
+ 
+Uçan 
+Araba Park 
+(UAP) Alanı 
+2 
+0, 1 
+-1 
+Uçan arabanın park edebileceğini gösteren 
+işaretin bulunduğu alandır. Şekil 1 ile hava 
+aracı 
+park 
+alanı 
+için 
+örnek 
+figür 
+belirtilmiştir. 
+ 
+Uçan 
+Ambulans 
+İniş (UAİ) 
+Alanı 
+3 
+0, 1 
+-1 
+Uçan ambulansın iniş yapabileceğini 
+gösteren işaretin bulunduğu alandır. Şekil 
+1’de uçan ambulans iniş alanı için örnek 
+figür belirtilmiştir. 
+ 
+ 
+UAP ve UAİ alanlarının tespiti sonrasında iniş için uygunluk durumlarının tespit edilmesi 
+gerekmektedir. Örneğin UAP alanında insan, taşıt veya herhangi bir yabancı nesne bulunmuyorsa 
+bu alan iniş için uygun, herhangi bir nesne bulunuyorsa iniş için uygun değildir. İniş için uygunluk 
+durumları ve bu durumlara karşılık gelen değerler Tablo 3’te gösterilmiştir. 
+Taşıtların tespitinden sonra hareketlilik durumlarının tespit edilmesi gerekmektedir. Örneğin 
+tespit edilen taşıt hareket halindeyse hareketli, hareket halinde değilse hareketsiz olarak 
+etiketlenmelidir. Hareket kavramı devam eden bir durum olduğu için yarışmacılar belirli sayıda 
+görüntü karesi üzerinden hareketlilik kararı da üretebilirler. Buradaki sistemin tasarımı yarışmacı 
+takımlara bırakılmıştır. Hareketlilik durumları ve bu durumlara karşılık gelen değerler Tablo 4 ile 
+gösterilmiştir. 
+Tablo 3: UAP ve UAİ Sınıfları için İniş Durumu ID bilgileri 
+İniş Durum ID 
+İniş Durumu 
+0 
+Uygun Değil 
+1 
+Uygun 
+-1 
+İniş Alanı Değil 
+ 
+Tablo 4: Hareketlilik  Durumu ID bilgileri 
+Hareket Durum ID 
+Hareket Durumu 
+0 
+Hareketsiz 
+1 
+Hareketli 
+-1 
+Taşıt Değil 
+ 
+ 
+11 
+ 
+4.3. 
+Tespit Edilecek Pozisyon Bilgisi 
+İkinci görev kapsamında yarışmacıların geliştirdikleri pozisyon kestirim algoritmalarına girdi 
+olarak verilen kamera görüntülerini kullanarak uçan arabanın referans koordinat sisteminde 
+pozisyon kestirim sonuç bilgileri Şekil 2 görsel olarak örneklendiği üzere aşağıda verilmiştir. 
+• Video başlangıcını referans alarak X eksenindeki metre cinsinden değişim 
+• Video başlangıcını referans alarak Y eksenindeki metre cinsinden değişim 
+• Video başlangıcını referans alarak Z eksenindeki metre cinsinden değişim 
+Teknik şartnamede bu bölümle ile ilgili detaylı bilgi verilecektir. 
+4.4. 
+Yarışma Oturumları 
+Yarışma, her biri belirli görevlerin gerçekleştirilmesini hedefleyen toplam 4 oturumdan 
+oluşmaktadır. Her oturumda, takımlara farklı bir video sağlanacaktır. Bu videolar, toplamda 5 
+dakikalık uçuş kayıtlarından oluşacak ve her biri 2250 görüntü karesini içerecektir. Uçuş süreleri 
+ve verilecek görüntü kare sayısı değişkenlik gösterebilir. 
+Yarışma alanında, test videolarının dağıtılacağı ve algoritma sonuçlarının toplandığı bir 
+sunucunun bulunduğu yerel ağ kurulacaktır. Yarışmacılar, bu yerel ağa ethernet kablosu ile 
+bağlanarak sunucudan test videolarını, sağlanan kod blokları aracılığıyla alacak ve algoritma 
+sonuçlarını yine aynı yöntemle sunucuya yükleyeceklerdir. Güvenlik ve adaletin sağlanması 
+amacıyla bu yerel ağın internet bağlantısı bulunmayacak, yarışmacıların sistemlerinin internete 
+bağlanmasına kesinlikle izin verilmeyecektir. 
+Bağlantıların kurulumu ve diğer teknik detaylar, yarışma sırasında açıklanacak ve teknik ekip 
+tarafından yarışmacılara sistem bağlantıları konusunda gerekli destek sağlanacaktır. Her 
+yarışma oturumundan önce, yarışmacılara 15 dakikalık bir hazırlık ve test süresi tanınacaktır. Bu 
+sürenin ardından, takımların algoritmalarını kullanarak kendilerine sağlanan 5 dakikalık video 
+görüntülerini işleyip sonuçları sunucuya yüklemeleri için 1 saatlik yarışma süreci başlayacaktır. 
+Belirlenen süre sonunda sunucu ile iletişim kesilecek ve bu noktadan sonra hiçbir şekilde 
+görüntü alma veya sonuç gönderme işlemi yapılamayacaktır. Sunucuya yüklenmeyen sonuçlar, 
+değerlendirme dışında tutulacaktır. 
+Yarışma sırasında her takım, hakem heyetine 5 dakikalık bir teknik sunum gerçekleştirecektir. Bu 
+sunum, takımın iletişim sorumlusu tarafından yapılacak olup, konu başlıklarında herhangi bir 
+kısıtlama bulunmamaktadır. Sunum süreci ve kapsamına dair ayrıntılı bilgiler, teknik şartnamede 
+detaylı şekilde ifade edilecektir. 
+4.5. 
+Eğitim, Test ve Yarışma Videoları 
+Yarışma kurulu, birinci görev özelinde, yarışma öncesinde takımlara nesnelerin nasıl tespit 
+edileceğini göstermek amacıyla örnek görüntüler ve bu görüntüler üzerinden tespit edilmiş 
+nesne verilerini paylaşacaktır. Yarışma kurulu ayrıca, yarışmacılara üzerinde etiketleme yapıp 
+kullanabilecekleri örnek yarışma videosu sağlayacaktır. Kullanılacak videolara ait format bilgileri 
+teknik şartnamede paylaşılacaktır. Hazırlık süreçlerinde takımlar, kendi temin ettikleri video 
+görüntülerini ve etiketlerini de kullanabilirler. 
+ 
+ 
+12 
+ 
+Yarışma kurulu, ikinci görev özelinde, kamera kaydı alınan ve uçuşunu yapan hava aracının örnek 
+pozisyon bilgisi de paylaşacaktır. Bu pozisyon bilgisi ile, yarışmacılar kendi geliştirdikleri pozisyon 
+kestirim algoritmalarının başarısını test edebilecekler ve geliştirmelerini yapabileceklerdir. 
+Yarışma sürecinde, hangi şartlarda pozisyon kestirim algoritmasının çalışacağı ve çalışma 
+kriterlerinin neler olduğu ile ilgili ayrıntılı bilgi teknik şartnamede belirtilecektir. 
+4.6. 
+Nesne Tespit Bilgisi Standartları 
+Yarışma sırasında, birinci görev özelinde, takımların tespit ettikleri nesnelerinin cinsini ve 
+konumunu JSON formatında yarışma sunucusuna göndermeleri gerekmektedir. Tespit edilen 
+nesnelerin sunucuya gönderimi için gerekli kod bloğu yarışma öncesinde yarışmacılar ile 
+paylaşılacaktır ve konu ile ilgili gerekli ve detaylı bilgiler yarışma teknik şartnamesinde 
+paylaşılacaktır. 
+4.7. 
+Pozisyon Tespit Bilgisi Standartları 
+Yarışma sırasında, ikinci görev özelinde, takımların yaptıkları pozisyon kestirimini JSON 
+formatında yarışma sunucusuna göndermeleri gerekmektedir. Kestirim sonuçlarını sunucuya 
+gönderimi için gerekli kod bloğu yarışma öncesinde yarışmacılar ile paylaşılacaktır ve konu ile 
+ilgili gerekli ve detaylı bilgiler yarışma teknik şartnamesinde paylaşılacaktır. 
+4.8. 
+Referans Obje Tespit Bilgisi Standartları 
+Yarışma sırasında, üçüncü görev özelinde, takımların tespit ettikleri referans objenin konumunu 
+JSON formatında yarışma sunucusuna göndermeleri gerekmektedir. Tespit edilen nesnelerin 
+sunucuya gönderimi için gerekli kod bloğu yarışma öncesinde yarışmacılar ile paylaşılacaktır ve 
+konu ile ilgili gerekli ve detaylı bilgiler yarışma teknik şartnamesinde paylaşılacaktır. 
+4.9. 
+Yarışmanın Github ve Google Groups Sayfaları 
+Yarışma 
+kapsamında, 
+katılımcıların 
+süreç 
+boyunca 
+destek 
+alabilmeleri, 
+sorularını 
+paylaşabilmeleri ve ekipler arası iletişim kurabilmeleri amacıyla çeşitli dijital platformlar 
+oluşturulmuştur. Bu platformlar, teknik detayların paylaşımı, güncellemelerin duyurulması ve 
+topluluk içi etkileşimin artırılması için kritik bir rol oynamaktadır. 
+Github Proje Deposu: Yarışma boyunca kullanılacak kod blokları, örnek veri setleri ve diğer 
+teknik materyaller Github üzerinden paylaşılacaktır. Katılımcılar, bu platform üzerinden gerekli 
+dokümanlara erişebilir, kodlar üzerinde inceleme yapabilir ve kendi çalışmalarına entegre 
+edebilirler. Github sayfası, yarışmacıların teknik materyallere kolay erişimini sağlamak amacıyla 
+sürekli güncel tutulacaktır. 
+Google Groups Platformu: Takımlar arasındaki bilgi alışverişini kolaylaştırmak ve organizasyon 
+ekibine sorularını iletebilmeleri için bir Google Groups tartışma platformu oluşturulmuştur. Bu 
+grup üzerinden yarışmaya dair önemli duyurular yapılacak, sıkça sorulan sorular yanıtlanacak ve 
+yarışmacıların teknik destek alabilmesi sağlanacaktır. 
+• 
+Githuba link üzerinden erişim sağlayabilirsiniz.  
+• 
+Google Groups a link üzerinden erişim sağlayabilirsiniz.  
+ 
+ 
+13 
+ 
+Bu platformlar, yarışmacıların hazırlık süreçlerini kolaylaştırmayı ve organizasyonun tüm 
+katılımcılar için şeffaf ve erişilebilir olmasını sağlamayı hedeflemektedir. Tüm katılımcıların bu 
+platformları etkin bir şekilde kullanmaları önerilmektedir. 
+5. PUANLANDIRMA 
+Puanlandırma detayları ve sistematiği yarışma teknik şartnamesinde açıklanacaktır. 
+6. YARIŞMA TAKVİMİ, DEĞERLENDİRME 
+Tablo 5: Yarışma Takvimi 
+Tarih 
+Açıklama 
+16.02.2026 
+Teknik Şartnamenin İlanı 
+28.02.2026 
+Yarışma Son Başvuru Tarihi 
+10-28.03.2026 
+Örnek Eğitim Videosunun (Etiketsiz) Teslimi 
+22.04.2026- 17:00 
+Ön Tasarım Raporu Son Teslim Tarihi 
+22.05.2026 
+Ön Tasarım Raporu Sonuçlarına göre 1. Ön Elemeyi Geçen 
+Takımların Açıklanması 
+01-06.06.2026 
+Takımlarla Soru-Cevap Toplantısı 
+09.07.2026 
+Çevrim İçi Yarışma Simülasyonu 
+17.07.2026 
+Çevrim İçi Yarışma Simülasyonunun Sonuçlarına göre 2. Ön 
+Elemeyi Geçen Takımların Açıklanması 
+Ağustos-Eylül 2026 
+Yarışma Finalleri 
+Ağustos-Eylül 2026 
+Final Tasarım Raporu Son Teslim Tarihi 
+30 Eylül-4 Ekim 2026 
+TEKNOFEST  
+6.1. Teknik Şartnamenin İlanı 
+Teknik şartname yarışmayla ilgili detaylı teknik bilgilerin verildiği bir dokümandır. Altyapılar, 
+etiketleme formatları, puanlandırma detayları gibi teknik bilgiler bu dokümanda yer alacaktır. Ön 
+Tasarım ve Final Tasarım Rapor formatları teknik şartnameyle birlikte paylaşılacaktır. 
+ 
+ 
+14 
+ 
+6.2. Örnek Eğitim Videosunun Teslimi 
+Başvuruların tamamlanmasının ardından yarışma sırasında kullanılabilecek örnek video 
+takımlarla paylaşılacaktır. Takımlar bu video üzerinde sistemlerini eğitebilir veya test edebilirler. 
+Paylaşılacak örnek videoda birinci görev (nesne tespiti) için kullanılabilecek örnek nesne 
+etiketleri bulunmayacaktır. Yarışmacılar eğitim için bu videoyu kullanmaya karar verirler ise kendi 
+etiketlemelerini yapmakla yükümlüdürler. Paylaşılacak örnek videoda ikinci görev (pozisyon 
+kestirimi) için kullanılabilecek konum bilgisi bulunacaktır. Her video karesinin çekildiği anda hava 
+aracının konumu ve oryantasyonu ile ilgili bilgi yarışmacılar ile paylaşılacaktır. 
+6.3. Ön Tasarım Raporu 
+Takımlar geliştirmeyi düşündükleri sistem ve yazılımı içeren ön tasarım raporunu, belirtilen tarihe 
+kadar ve teknik şartnameyle beraber paylaşılacak olan rapor formatına uygun olarak yarışma 
+komisyonuna göndermelidirler. Gönderilen bu raporlar yarışma komisyonu tarafından 
+incelenecek ve yarışmaya devam etmeye hak kazanan takımlar duyurulacaktır. Ön tasarım 
+raporu göndermeyen veya gönderilen raporu komisyon tarafından elenen takımlar yarışmaya 
+katılamayacaklardır. 
+Rapor teslimi takvimde belirtilen gün içerisinde saat 17:00’a kadar KYS sistemi üzerinden 
+yüklenmesi gerekmektedir. İtiraz süreci TEKNOFEST Yarışmalar Komitesi tarafından sonuçların 
+açıklanmasının ardından gönderilen mail ile takımlara bildirilmektedir. Takvim ve saatlerde 
+TEKNOFEST Yarışmalar Komitesi tarafından değişiklik yapma hakkı bulunmaktadır. 
+6.4 
+Ön Tasarım Raporunun Değerlendirilmesi ve 1. Ön Elemeyi Geçen 
+Takımların Açıklanması 
+Ön tasarım raporları değerlendirmeye alınacak ve 1. ön eleme sonuçları açıklanacaktır. Ön 
+tasarım aşamasını geçen adaylar yarışmanın diğer aşamalarına devam edebileceklerdir. 
+6.5 
+Takımlarla Soru-Cevap Toplantısı 
+Ön tasarım aşamasını geçen yarışmacılar ile yarışma hakkında soruları cevaplamak amacı ile 
+soru cevap toplantısı yapılacaktır. Yarışmacılara, toplantı tarihinde değişiklik olması durumunda 
+ve toplantı ortamı hakkında bilgilendirme yapılacaktır. 
+6.6 
+Çevrim İçi Yarışma Simülasyonu 
+Yarışmacı adaylar, Yarışma Kurulu’nun detaylarını teknik şartnamede açıklayacağı bir Çevrim İçi 
+yarışma simülasyonuna tabi tutulacaklardır. Bu değerlendirmede sunucuya bağlanamamış, 
+sonuç gönderememiş veya belirlenen minimum başarı eşiğini aşamamış takımlar yarışmaya 
+katılamayacaklardır. 
+6.7 
+Çevrim İçi Yarışma Simülasyonun Sonuçlarına Göre 2. Ön Elemeyi 
+Geçen Takımların Açıklanması 
+Çevrim İçi Yarışma Simülasyonu sonuçları değerlendirmeye alınacak ve 2. ön eleme sonuçları 
+açıklanacaktır. Çevrim İçi Yarışma Simülasyonu aşamasını geçen adaylar yarışmaya katılmaya 
+hak kazanacaklardır. 
+ 
+ 
+15 
+ 
+Çevrim İçi Yarışma Simülasyonu sonuçlarına göre maddi destek almaya hak kazanan takımlar 
+ve finale katılmaya hak kazanan takımlar yarışma takviminde belirtilen tarihte açıklanacaktır. Yarı 
+final aşamasını başarı ile tamamlayan takımlar TEKNOFEST finallerinde yarışma hakkı 
+kazanacaktır. Çevrim İçi Yarışma Simülasyonu sonuçlarına göre başarılı olan takımlar maddi 
+destek başvurusu yaptı ise almaya hak kazanacaktır, bu aşamada KYS portalı üzerinden 
+iletilecek olan maddi destek formunun doldurulması gerekmektedir, Maddi destek formu için 
+tarih, TEKNOFEST Yarışmalar Komitesi tarafından belirlenecek olup bilgilendirme iletişim 
+sorumlusuna yapılacaktır. Maddi destek başvurusu yapmak zorunlu değildir. 
+6.8 
+Yarışma 
+Yarışmacılar, yarışma günü yarışma başlamadan önce yarışma alanında sistemlerini kuracaklar 
+ve yarışma teknik ekibi ile sistemin çalıştığına dair testler yapacaklardır. Sistemlerini çalıştıran 
+yarışmacılar yarışma oturumlarına katılabileceklerdir. Takımlar oturumlardan birine herhangi bir 
+sebepten dolayı katılamaz veya sistemlerini zamanında çalıştıramaz ise diğer oturumlara 
+sistemleri hazır olduğunda katılabilirler ancak katılamadıkları oturumlardan puan alamazlar. 
+Yarışma oturumlarının kesin tarihleri takımlara duyurulacaktır. 
+Yarışma oturumları sırasında, önceden duyurulacak sıra ile her takım iletişim sorumlusu 
+geliştirmiş oldukları sistemi yarışma hakem heyetine sunacaktır. Sunum sırasında takım iletişim 
+sorumlusuna hakem heyeti tarafından sorular sorulacaktır. Her takımın 5 dakikalık sunum 
+yapması beklenmektedir. Sunum sırasında anlatılacak konu başlıkları hakkında bir sınırlandırma 
+bulunmamaktadır. 
+Her takım 60’ar dakika süren oturumlarda sunucudan sırası ile video kareleri çekecek, kendi 
+geliştirdikleri görüntü işleme teknolojileri ile var olan üç görevin isterlerini karşılayacak ve 
+sunucuya sonuçlarını yollayacaktır. Sürecin ayrıntılı işleyişi ile ilgili bilgiler teknik şartnamede 
+belirtilecek, kullanılacak olan kod blokları yarışma öncesinde yarışmacılar ile paylaşılacaktır. 
+6.9 
+Final Tasarım Raporu 
+Yarışmacı adayları, sistemlerine ait final tasarım raporunu belirlenen son tarihten önce 
+göndermelidirler. Raporda geliştirme sürecindeki kazanımlar ve metotlar detaylı olarak yer 
+alacaktır. Final tasarım raporunun formatı takımlarla teknik şartnameyle beraber paylaşılacaktır. 
+6.10 TEKNOFEST 
+Yarışmalar tamamlandıktan sonra Yarışma Komisyonu tarafından belirlenecek başarı kriteri 
+sağlayan takımlar etkinliğe yarışmacı olarak davet edileceklerdir. Etkinlikte; yarışma sonuçları, 
+çeşitli eğitimler ve yarışmacıların sunumları yer alacaktır. 
+7. ÖDÜLLER 
+Aşağıdaki tabloda belirtilen ödüller, ödül almaya hak kazanan takımlara verilecek toplam tutarı 
+göstermektedir, bireysel ödüllendirme yapılmayacaktır. Birincilik, ikincilik ve üçüncülük ödülleri, 
+takım üyeleri toplam sayısına (danışman hariç) göre eşit miktarda bölünerek her şahsın 
+belirteceği banka hesabına yatırılacaktır. Ödül almaya hak kazanan takım danışmanları aşağıdaki 
+ 
+ 
+16 
+ 
+birincilik, ikincilik, üçüncülük ödül tutarlarından faydalanamaz, danışmanlara verilecek ödüller 
+aşağıdaki tabloda ayrıca belirtilmiştir. 
+Tablo 6: Ödüller Tablosu 
+ 
+Para ödüllerine ek olarak aşağıda açıklanan şartlar doğrultusunda takımlara “En İyi Sunum 
+Ödülü” ve “Yenilikçi Yazılım Ödülü” verilecektir. 
+En İyi Sunum Ödülü: Yarışma alanında üstlenilen görevlerini ve alandaki iş planlarını en iyi 
+şekilde sonuçlandırmayı hedefleyen takımlara, bu amaçta başarı elde edip edilmemesine 
+bakılmaksızın projesini süre, sorulara verilen doğru cevaplar, beden dili, dinleyicilere karşı tutum, 
+sunumun akıcılığı, sunum taslağı gibi kriterleri en iyi şekilde yansıtan takımlara verilen ödüldür. 
+Takım olarak alan çalışması, alanda gösterilen çaba, beceri, takım içi ve takımlar arası iletişim 
+vb. durumlarına da bakılarak değerlendirme yapılacaktır. Belirtilen ödül prestij amaçlı olup bir 
+maddi karşılığı bulunmamaktadır. 
+Yenilikçi Yazılım Ödülü: Yarışma oturumlarında birinci, ikinci ve üçüncü görevin başarısı ayrı ayrı 
+hesaplanmaktadır. Yarışma sırasında verilen üçüncü görevi en iyi şekilde tamamlayan takıma 
+belirtilen ödül verilecektir. Belirtilen ödül prestij amaçlı olup bir maddi karşılığı bulunmamaktadır. 
+Takımlar her oturum sonunda bir puan elde edeceklerdir. Bu puanın oturumda alınabilecek 
+toplam puana oranı takımların oturumdaki puan yüzdelerini gösterecektir. Bir takımın başarılı 
+sayılabilmesi için tüm oturumlarda elde ettiği puan yüzdelerinin ortalamasının %70’i geçmesi 
+gerekmektedir. Ödüller başarı kriterini sağlayan takımlar için geçerlidir. Başarı kriteri 
+sağlanamadığı durumda mansiyon ödülü verilir. 
+8. YARIŞMAYA KATILIM KOŞULLARI 
+8.1. 
+YARIŞMAYA KATILMA KOŞULLARI VE DETAYLARI 
+ 
+• Yarışmaya; Türkiye ve yurt dışında öğrenim gören lise, üniversite öğrencileri (Lisans, Ön 
+lisans, Yüksek Lisans, Doktora ve Açık Öğretim dâhil) ve mezunları takım halinde 
+katılabilir. 
+• Mezun kategorisi lise mezunu ve üniversite mezunlarını kapsamaktadır. 
+• Lise mezunu üyelerin mezuniyet tarihinden itibaren en fazla 3 (üç) yıl geçme şartı 
+aranmaktadır. 
+DERECELER 
+ÖDÜL MİKTARI 
+DANIŞMAN ÖDÜLÜ 
+BİRİNCİLİK 
+250.000,00₺ 
+15.000,00 ₺ 
+İKİNCİLİK 
+225.000,00₺ 
+12.000,00 ₺ 
+ÜÇÜNCÜLÜK 
+200.000,00₺ 
+10.000,00 ₺ 
+ 
+ 
+17 
+ 
+• Yarışmacı, TEKNOFEST 2026'ya katılmak üzere projesiyle önceki yıllarda düzenlenen 
+TEKNOFEST yarışmalarına katılmışsa, projesini/fikrini geliştirme ve/veya dönüştürme 
+şartıyla tekrar başvurabilir. 
+• Yarışmacı, daha önce katıldığı proje raporu/fikrinin aynısı ve/veya kopyası olan bir 
+rapor/fikirle yarışmaya katılamaz. Benzer veya taklit olduğu tespit edilen projeler 
+yarışmadan diskalifiye edilecektir. 
+• Geçmiş yıl TEKNOFEST proje raporları kapsamında www.teknofest.org adresinden 
+yayınlanmış olan raporlar geçmiş yıllarda katılım sağlamış olduğu proje raporları 
+üzerinden alıntı yapılması halinde kaynak belirtilmelidir. Kaynak belirtme formatına 
+şartnamede yer alan genel kurallar başlığından ulaşabilirsiniz. 
+• Yarışmacılar farklı projeler ile farklı TEKNOFEST yarışmalarına başvuru yapabilir. 
+• Her farklı proje için ayrı bir başvuru formu doldurulmalıdır. 
+• Yarışmacılar aynı proje ile yalnızca tek bir kategoriye veya tek bir yarışmaya başvurulabilir. 
+Aynı proje ile farklı kategori veya TEKNOFEST kapsamında düzenlenen farklı yarışmaya 
+başvuru yapan takımların veya kişilerin başvuruları geçersiz sayılacaktır. 
+• Yarışmacı aynı proje ile daha evvel bir başka yarışmada (TEKNOFEST veya diğer 
+yarışmalar) yer almışsa, katılmış olduğu yarışmanın adı, yeri, tarihi, organizatörü, 
+yarışmada aldığı netice bilgilerini proje dosyası içerisinde bildirmelidir. 
+ 
+8.2. 
+TAKIM OLUŞTURMA 
+● Takımlar en az 2, en fazla 5 kişiden oluşmalıdır. Bu kişilerden 1’i İletişim Sorumlusu olarak 
+görevlendirilmeli ve takım adına sunum yapmalıdır. (Bu sayıya danışman dahil değildir.) 
+● Finalist olan takımlar final yarışması sırasında, yarışma alanında her takımdan en fazla 3 
+yarışmacı olacak şekilde bulunabilir. Yarışmacı sayısı 3’ten fazla olan takımlar, farklı 
+yarışma oturumlarında kendi aralarında dönüşümlü olarak yarışma alanında 
+bulunabilirler. 
+● Takım içerisinde takım kaptanı bulunmalıdır. 
+● Çevrim İçi Yarışma Simülasyonu aşamasında başarılı olan takımlardan “Takım Okulları’na 
+bakılarak her okuldan en fazla 3 takım finale kalacaktır. 
+● Yarışmaya bireysel katılım sağlanamaz. Yarışmacıların takım halinde başvurmaları 
+gerekmektedir. 
+● Öğrencilerin onaylı öğrenci belgelerini, danışmanların ise çalıştıkları kurumu gösteren 
+onaylı belgelerini ıslak imzalı olarak TEKNOFEST Yarışmalar Komitesi tarafından 
+açıklanacak tarihte sisteme yüklemeleri gerekmektedir.  
+● Bu yarışma için bir kişi (danışman, kaptan veya takım üyesi olarak) yalnızca bir takımında 
+bulunabilir. 
+● Takımlar, tek bir okuldan oluşturulabileceği gibi, bir veya birden fazla farklı okuldan 
+öğrencinin bir araya gelmesiyle karma bir takım da oluşturabilir. 
+● Takımlar tek bir ülkeden oluşturulabileceği gibi bir veya birden fazla ülkenin öğrencisinin 
+bir araya gelmesiyle karma bir takım oluşturulabilir. 
+● Başvuru tarihleri arasında takım kaptanı/danışman sistem üzerinden kayıt olur, danışman 
+ve/veya takım kaptanı, takım üyelerinin kaydını doğru ve eksiksiz olarak sistemde 
+ 
+ 
+18 
+ 
+oluşturur ve üyelerin e-postalarına davet gönderir. Davet gönderilen üye, başvuru 
+sistemine giriş yaparak “Takım bilgilerim” kısmından gelen daveti kabul eder ve kayıt 
+işlemi tamamlanır. Aksi durumda kayıt işlemi tamamlanmış olmaz. 
+ 
+8.3. 
+DANIŞMAN YÜKÜMLÜLÜKLERİ 
+• Lise seviyesindeki takımlar, bir danışman almak zorundadır. Danışman olarak görev 
+yapacak kişinin danışmanlık görevlerini yerine getireceğine dair belgenin (Görevlendirme 
+Yazısı) ıslak imzalı olarak TEKNOFEST Yarışmalar Koordinatörlüğünün belirlediği bir 
+tarihte sisteme yüklenmesi gerekmektedir. 
+• Lisans, lisansüstü öğrencileri ve mezun seviyesindeki takımlar, bir öğretim 
+görevlisini/üyesini veya araştırma görevlisini danışman olarak alabilir. 
+• Üniversite ve üzeri seviyesinde yarışacak takımlarımızın danışman alma zorunluluğu 
+bulunmamaktadır. Üniversite ve üzeri seviyesindeki başvurularda takım danışmanı 
+bulunması durumunda danışmanlık belgesi göndermesi zorunludur. 
+• Danışman final aşamasına kadar takıma destek olacağını ve final aşaması süresince 
+takımın yanında bulunacağını taahhüt eder. Final aşamasına kalan projelerde lise 
+seviyesinde takımların danışmanları ile alanda bulunmaları zorunludur. 
+• Üniversite seviyesi ve üzeri yarışmacılar final aşamasına danışmanı ile gelmek zorunda 
+değildir. 
+• Danışman olarak görev yapacak kişinin danışmanlık görevlerini yerine getireceğine dair 
+belgenin ıslak imzalı olarak TEKNOFEST Yarışmalar Komitesinin açıklayacağı tarihte 
+sisteme yüklenmesi gerekmektedir. 
+• Danışman değişikliği olması durumunda yazılı olarak ilgili TEKNOFEST komitesine 
+iletilmesi gerekmektedir.  (Danışman değiştirmek için bu belgenin verilmesi zorunludur.) 
+• Danışman, takım üyesi olarak eklenmemelidir. Her takımın en fazla bir danışmanı olabilir. 
+Birden fazla danışman bulunan takımların başvuruları geçersiz sayılacaktır. 
+• Danışmanın görevi; öğrencilere kendi eğitim-öğretimlerini planlayabilmeleri konusunda 
+opsiyonel olmak, akademik, sosyal ve kültürel konularda yol göstermek, zihinsel, sosyal 
+ve duygusal yönleriyle öğrencinin kişiliğinin bir bütün olarak gelişebilmesi için uygun 
+ortamın hazırlanmasına opsiyonel olmak vb. görev ve hizmetlerdir. Danışmanının 
+takımdaki rolü projede ihtiyaç duyulacak akademik desteği sağlayarak takım üyelerinin 
+problemlerine çözüm üretebilmeleri için yol göstermektir.  
+ 
+8.4. 
+SÜREÇ BİLGİLERİ 
+• Yarışma süreci boyunca TEKNOFEST yarışmalar komitesi tarafından yapılacak olan tüm 
+bilgilendirmeler takımın iletişim sorumlusu olarak belirlediği kişiye yapılacaktır. Bu 
+sebeple her takım bir iletişim sorumlusu belirlemelidir. (KYS’ ye kayıtlı e-mail adresine 
+bilgilendirme yapılmaktadır.) 
+• Süreçlerin (Başvuru Yapma, Rapor Son Yükleme Tarihi, İtiraz Süreci, Doldurulması 
+Gereken Form vb.) takibi iletişim sorumlusunun görevi olup iletişim sorumlusundan 
+kaynaklı gecikmeler ve/veya aksaklıklardan TEKNOFEST Yarışmalar komitesi sorumlu 
+değildir. 
+ 
+ 
+19 
+ 
+• Yarışma kapsamında gerekli tüm süreçler (Başvuru, Rapor Alımı, Rapor Sonuçları, Maddi 
+Destek Başvurusu, İtiraz Süreçleri, Üye ekleme/çıkarma işlemleri vb.) KYS sistemi 
+üzerinden yapılmaktadır. Takımların KYS portalı üzerinden süreçleri takip etmesi 
+gerekmektedir. 
+• Yarışma süreci boyunca başvuru yapma, rapor yükleme, itiraz süreci ve form doldurma 
+işlemleri takım kaptanı ve/veya danışmanın yetkisi dahilinde olup yarışma süreçleri bu 
+kişiler üzerinden yönetilmektedir. 
+• Üye ekleme/çıkarma işlemleri TEKNOFEST Yarışmalar Komitesi tarafından açıklanacak 
+tarihe kadar yapılabilir. İlgili tarih sonrası takımlar içerisinde değişiklik yapılmayacaktır. 
+• Finale kalan takımlara sağlanacak ulaşım ve konaklama desteği sınırlıdır. Destek 
+verilecek kişi sayısı daha sonra açıklanacak olup TEKNOFEST Yarışmalar Komitesi’nin 
+süreçle ilgili değişiklik yapma hakkı bulunmaktadır. 
+• TEKNOFEST Yarışmalar Komitesi festival alanında bulunacak üye sayısını sınırlandırma 
+yetkisine sahiptir. Sınırlandırma yapılması durumunda komite tarafından bilgilendirme 
+yapılacaktır. 
+• Takım oluşturma sürecini tamamlayan katılımcılar, projelerine uygun yarışmaya 
+başvurmalıdır. 
+•  Başvuru sürecini tamamlayan katılımcılar, raporlarını eksiksiz bir şekilde hazırlamak ve 
+yarışma takviminde belirtilen Ön Tasarım Raporu yükleme son tarihine kadar sisteme 
+yüklemekle sorumludurlar. Belirtilen süre içinde raporlarını sisteme yükleyemeyen 
+takımlar bu aşamada elenmiş sayılırlar. 
+ 
+8.5. 
+BAŞVURU ESASLARI  
+• 
+Başvurular, TEKNOFEST Havacılık, Uzay ve Teknoloji Festivali Teknoloji Yarışmaları resmî 
+web sitesi (www.teknofest.org) üzerinden alınacaktır. 
+• 
+Başvurular 28 Şubat 2026 tarihine kadar www.t3kys.com başvuru sistemi üzerinden 
+çevrim içi olarak yapılır. 
+• 
+Yarışmacı, başvuru yapmadan önce yarışma hakkındaki tüm açıklamaları ve katılım 
+koşullarını okuyup onaylamak suretiyle yarışmaya katılabilecektir. 
+• 
+Yarışmaya başvuranlar şartnamede yer alan şartların tamamını kabul etmiş oldukları 
+sayılmaktadır.  
+9. İLETİŞİM 
+Yarışma hakkında sorular için TEKNOFEST web sitesinde Havacılıkta Yapay Zeka Yarışması 
+sayfasından yarışmanın grubuna katılabilirsiniz. Bu grubun aktif olarak takip edilmesi ve her 
+takımdan en az 1 kişinin üye olarak bu gruptaki duyuruları, soru ve cevapları takip etmesi 
+yarışmacıların sorumluluğundadır. Belirtilen e-posta grubunun takip edilmemesi sonucunda 
+doğacak takımların güncel bilgilendirmelere ulaşamama durumundan TEKNOFEST Yarışmalar 
+Komitesi sorumlu değildir. 
+Yarışmanın organizasyonel bölümleri ile ilgili soruların iletisim@teknofest.org e-posta adresi 
+üzerinden iletilmesi gereklidir. 
+ 
+ 
+20 
+ 
+• Sorularınızın yukarıda doğru kanallar üzerinden iletilmesi, sorulan sorulara hızlı dönüş 
+yapılabilmesi açısından önem arz etmektedir. 
+10. 
+GENEL KURALLAR 
+Yarışma kapsamında geçerli olan Genel Kurallar kitapçığına ulaşmak için tıklayınız. 
+11. 
+ETİK KURALLAR 
+Yarışma kapsamında geçerli olan Etik Kurallar kitapçığına ulaşmak için tıklayınız. 
+SORUMLULUK BEYANI 
+T3 Vakfı ve TEKNOFEST, yarışmacıların teslim etmiş olduğu herhangi bir üründen veya 
+yarışmacıdan kaynaklanan herhangi bir yaralanma veya hasardan hiçbir şekilde sorumlu değildir. 
+Yarışmacıların 3. kişilere verdiği zararlardan T3 Vakfı ve organizasyon yetkilileri sorumlu değildir. 
+T3 Vakfı ve TEKNOFEST, takımların kendi sistemlerini Türkiye Cumhuriyeti yasaları çerçevesinde 
+hazırlamalarını ve uygulamalarını sağlamaktan sorumlu değildir.  
+Türkiye Teknoloji Takımı Vakfı işbu şartnamede her türlü değişiklik yapma hakkını saklı 
+tutar. 
+ 
+ 
+21 
+ 
+ 

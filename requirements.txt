@@ -13,3 +13,4 @@ black>=23.7.0
 flake8>=6.1.0
 pymavlink>=2.4.0
 gym>=0.26.0
+requests>=2.31.0

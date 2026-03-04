@@ -15,6 +15,16 @@ class ObjectDetector:
         self.model = YOLO(model_path)
         self.conf_threshold = conf_threshold
         self.colors = np.random.uniform(0, 255, size=(100, 3))
+        
+        # Teknofest Class Mapping (Figure 2 / Chapter 8)
+        self.class_map = {
+            'car': 0, 'motorcycle': 0, 'bus': 0, 'truck': 0, 'train': 0,
+            'person': 1,
+            'parking': 2, # UAP
+            'landing': 3, # UAİ
+        }
+        # Fallback to general IDs if specific ones not in model
+        self.id_to_tekno = {0: 0, 1: 1, 2: 2, 3: 3} 
 
     def detect(self, frame):
         """
@@ -36,14 +46,22 @@ class ObjectDetector:
             for box in boxes:
                 x1, y1, x2, y2 = box.xyxy[0].cpu().numpy()
                 conf = box.conf[0].cpu().numpy()
-                cls = int(box.cls[0].cpu().numpy())
                 
-                detections.append({
-                    'class_id': cls,
-                    'class_name': self.model.names[cls],
-                    'confidence': float(conf),
-                    'box': [float(x1), float(y1), float(x2), float(y2)]
-                })
+                class_name = self.model.names[cls]
+                tekno_cls = self.class_map.get(class_name.lower(), -1)
+                
+                # If it's a vehicle or person, we follow the spec
+                if tekno_cls != -1:
+                    detections.append({
+                        'cls': str(tekno_cls),
+                        'confidence': float(conf),
+                        'top_left_x': int(x1),
+                        'top_left_y': int(y1),
+                        'bottom_right_x': int(x2),
+                        'bottom_right_y': int(y2),
+                        'landing_status': "-1", # Default for non-landing areas
+                        'motion_status': "-1"   # Will be filled by tracker
+                    })
 
                 # Draw bounding box
                 color = self.colors[cls % len(self.colors)]
