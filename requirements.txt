@@ -1,16 +1,18 @@
+# TEKNOFEST 2026 - Havacılıkta Yapay Zeka
+# SkyGuard AI Bağımlılıkları
+
+# Görüntü İşleme ve Nesne Tespiti
+ultralytics>=8.0.0       # YOLOv8 - Nesne tespiti
+opencv-python>=4.8.0     # OpenCV - Görüntü işleme, ORB, SIFT, Homografi
+
+# Sayısal Hesaplama
 numpy>=1.24.0
-opencv-python>=4.8.0
-ultralytics>=8.0.0
-streamlit>=1.25.0
-pyserial>=3.5
-pandas>=2.0.0
-matplotlib>=3.7.0
-scipy>=1.10.0
-filterpy>=1.4.5
-pygame>=2.5.0  # For simulation visualization if needed
-pytest>=7.4.0
-black>=23.7.0
-flake8>=6.1.0
-pymavlink>=2.4.0
-gym>=0.26.0
+
+# HTTP İstemci (Sunucu Bağlantısı - Bölüm 8)
 requests>=2.31.0
+
+# Dashboard (Opsiyonel - test için)
+streamlit>=1.28.0
+
+# Test
+pytest>=7.4.0
