@@ -110,6 +110,7 @@ def enrich_with_motion_and_landing(
     tracker: CentroidTracker,
     frame_w: int,
     frame_h: int,
+    camera_shift: tuple = (0, 0)
 ) -> list:
     """
     Tespitleri tracker sonuçlarıyla zenginleştirir:
@@ -121,6 +122,7 @@ def enrich_with_motion_and_landing(
         detections: detector.py çıktısı.
         tracker: Güncellenmiş CentroidTracker.
         frame_w, frame_h: Kare boyutları.
+        camera_shift: (dx, dy) kamera hareketi.
 
     Returns:
         Zenginleştirilmiş tespit listesi.
@@ -131,7 +133,7 @@ def enrich_with_motion_and_landing(
         rects.append((d['top_left_x'], d['top_left_y'],
                       d['bottom_right_x'], d['bottom_right_y']))
 
-    tracker.update(rects)
+    tracker.update(rects, camera_shift=camera_shift)
 
     for d in detections:
         cls = d['cls']
@@ -233,17 +235,7 @@ def competition_loop(server_url: str = "http://127.0.0.1:5000", username: str = 
             frame_count += 1
 
             # ----------------------------------------------------------
-            # 3. Görev 1: Nesne Tespiti
-            # ----------------------------------------------------------
-            detections, _ = detector.detect(frame)
-
-            # Hareket ve iniş durumlarını zenginleştir
-            detections = enrich_with_motion_and_landing(
-                detections, tracker, frame_w, frame_h
-            )
-
-            # ----------------------------------------------------------
-            # 4. Görev 2: Pozisyon Kestirimi
+            # 3. Görev 2: Pozisyon Kestirimi (Önce yapıyoruz ki kamera kaymasını alalım)
             # ----------------------------------------------------------
             if gps_health == 1:
                 # GPS sağlıklı: sunucu değerini kullan VE visual odometry'yi hizala
@@ -271,6 +263,19 @@ def competition_loop(server_url: str = "http://127.0.0.1:5000", username: str = 
                     "translation_z": float(corrected[2]),
                 }
 
+            # Kamera kaymasını al (dx, dy)
+            camera_shift = (float(vo.last_shift[0]), float(vo.last_shift[1]))
+
+            # ----------------------------------------------------------
+            # 4. Görev 1: Nesne Tespiti
+            # ----------------------------------------------------------
+            detections, _ = detector.detect(frame)
+
+            # Hareket ve iniş durumlarını zenginleştir (kamera kayması dahil)
+            detections = enrich_with_motion_and_landing(
+                detections, tracker, frame_w, frame_h, camera_shift=camera_shift
+            )
+
             # ----------------------------------------------------------
             # 5. Görev 3: Tanımsız Nesne Eşleme
             # ----------------------------------------------------------
@@ -287,7 +292,7 @@ def competition_loop(server_url: str = "http://127.0.0.1:5000", username: str = 
                 fail_count += 1
 
             t_elapsed = time.time() - t_start
-            status_str = "✓" if ok else "✗"
+            status_str = "OK" if ok else "ERR"
             gps_str    = "GPS:OK" if gps_health == 1 else "GPS:XX"
             n_obj      = len(detections)
             n_undef    = len(undefined_objects)

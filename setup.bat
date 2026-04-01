@@ -19,6 +19,9 @@ call venv\Scripts\activate
 echo [BILGI] Bagimliliklar yukleniyor...
 pip install -r requirements.txt
 
+echo [BILGI] Kapsamli kurulum sihirbazi calistiriliyor...
+python setup_project.py
+
 echo.
 echo ==========================================
 echo        Kurulum Tamamlandi!
@@ -28,6 +31,6 @@ echo Kontrol panelini calistirmak icin:
 echo    streamlit run dashboard.py
 echo.
 echo Ana gorev dongusunu calistirmak icin:
-echo    python main.py
+echo    python competition_entry.py
 echo.
 pause

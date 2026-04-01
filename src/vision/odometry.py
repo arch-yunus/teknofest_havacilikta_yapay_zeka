@@ -56,6 +56,7 @@ class VisualOdometry:
         self._gps_reference_pos = np.zeros(3, dtype=np.float64)
         self._last_gps_pos      = np.zeros(3, dtype=np.float64)
         self._gps_was_healthy   = True
+        self.last_shift         = np.zeros(2, dtype=np.float64)  # [dx, dy] pixels
 
         print("[VisualOdometry] Başlatıldı. K matrisi:")
         print(self.K)
@@ -103,6 +104,13 @@ class VisualOdometry:
             return self.current_pos.copy()
 
         _, R, t, mask = cv2.recoverPose(E, pts1, pts2, self.K)
+
+        # Piksel kayması hesapla (RANSAC inlier'ları kullanarak)
+        mask_bool = mask.ravel() == 1
+        if mask_bool.any():
+            self.last_shift = np.mean(pts2[mask_bool] - pts1[mask_bool], axis=0)
+        else:
+            self.last_shift = np.zeros(2)
 
         # Ölçek: irtifa varsa kullan, yoksa sabit baseline_scale
         scale = self.baseline_scale

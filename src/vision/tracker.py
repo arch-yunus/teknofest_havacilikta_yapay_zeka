@@ -37,6 +37,11 @@ class KalmanFilter:
         self.state = self.state + K @ y
         self.P = (np.eye(4) - K @ self.H) @ self.P
 
+    def shift(self, dx: float, dy: float):
+        """Kamera hareketinden dolayı durumu (x, y) kaydırır."""
+        self.state[0] += dx
+        self.state[1] += dy
+
     @property
     def velocity(self) -> float:
         """Piksel/kare cinsinden hız büyüklüğü."""
@@ -88,16 +93,24 @@ class CentroidTracker:
     # ------------------------------------------------------------------
     # Ana Güncelleme
     # ------------------------------------------------------------------
-    def update(self, rects: list) -> dict:
+    def update(self, rects: list, camera_shift: tuple = (0, 0)) -> dict:
         """
         Karelerdeki bounding box listesi ile takipçiyi günceller.
 
         Args:
             rects: [(x1, y1, x2, y2), ...] formatında bounding box listesi.
+            camera_shift: (dx, dy) kamera hareketinden kaynaklı piksel kayması.
 
         Returns:
             {object_id: centroid_np_array} dict.
         """
+        # Önce tüm aktif filtreleri kamera hareketine göre kaydır
+        dx, dy = camera_shift
+        if dx != 0 or dy != 0:
+            for oid in self.filters:
+                self.filters[oid].shift(dx, dy)
+                self.objects[oid] = self.objects[oid] + np.array([dx, dy])
+
         if len(rects) == 0:
             for oid in list(self.disappeared.keys()):
                 self.disappeared[oid] += 1
